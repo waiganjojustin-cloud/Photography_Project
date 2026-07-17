@@ -14,6 +14,7 @@ img {
 p {
     border: 2px solid red;
     display: inline-flex;
+    width: 200px;
 }
 .txt {
     font-size: larger;
@@ -21,23 +22,59 @@ p {
     color: white;
 }
 .grad1 {
-    background: linear-gradient(blue, purple)
+    background: linear-gradient(blue, purple);
+    width: 200px;
 }
 .grad2 {
     background: linear-gradient(to right, #243b55, #141e30);
+    width: 200px;
 
 }
 .grad3 {
     background: linear-gradient(45deg, #f12711, #f5af19);
+    width: 400px;
 }
 .grad4 {
     background: linear-gradient(180deg, #373b44 0%, #4286f4 100%);
+    width: 200px;
 
 }
 .grad5 {
     background: linear-gradient(to right, #0575e6, #00f260, #0575e6);
+    width: 200px;
 
 }
 .grad6 {
     background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+    width: 200px;
+}
+.grad9 {
+    background: linear-gradient(45deg, #f12711, #f5af19);
+    width: 200px;
+    margin-bottom: 0;
+}
+.grad10 {
+    background: linear-gradient(to right, #0575e6, #00f260, #0575e6);
+    width: 400px;
+    margin-left: 100px;
+}
+.sidebar {
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 250px;
+    background-color: wheat;
+    font-weight: 300;
+    font-weight: 200;
+    border-radius: 1px;
+    border: 2px dotted blue;
+}
+#ali {
+    background: linear-gradient(to right, #243b55, #141e30);
+    width: 900px;
+    height: 30vh;
+    display: flex;
 }
