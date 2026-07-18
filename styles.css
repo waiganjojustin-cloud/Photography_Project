@@ -79,6 +79,7 @@ p {
     width: 900px;
     height: 30vh;
     display: flex;
+    padding-bottom: 5px;
 }
 .fin {
     padding-left: 5%;
