@@ -10,6 +10,7 @@ img {
     float: left;
     width: 200px;
     margin-bottom: 5px;
+    margin-right: 25px;
 }
 p {
     border: 2px solid red;
@@ -66,15 +67,19 @@ p {
     align-items: center;
     padding: 0px;
     width: 250px;
-    background-color: wheat;
+    background-color: white;
     font-weight: 300;
     font-weight: 200;
     border-radius: 1px;
     border: 2px dotted blue;
+    color: white
 }
 #ali {
     background: linear-gradient(to right, #243b55, #141e30);
     width: 900px;
     height: 30vh;
     display: flex;
+}
+.fin {
+    padding-left: 5%;
 }
