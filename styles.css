@@ -60,19 +60,19 @@ p {
     margin-left: 100px;
 }
 .sidebar {
+    float: right;
     display: flex;
     justify-content: space-around;
-    float: right;
-    flex-direction: column;
+    flex-direction: raw;
     align-items: center;
-    padding: 0px;
-    width: 250px;
-    background-color: white;
-    font-weight: 300;
-    font-weight: 200;
+    padding-right: 20px;
+    width: 1220px;
+    height: 30vh;
+    background-color: linear-gradient(to bottom, red, yellow);
+    font-size: xx-large;
+    text-decoration-color: #f12711;
     border-radius: 1px;
-    border: 2px dotted blue;
-    color: white
+    border: 2px dotted green;
 }
 #ali {
     background: linear-gradient(to right, #243b55, #141e30);
