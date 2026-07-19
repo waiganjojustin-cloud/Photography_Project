@@ -68,14 +68,14 @@ p {
     padding-right: 20px;
     width: 1220px;
     height: 30vh;
-    background-color: linear-gradient(to bottom, red, yellow);
+    background-color: linear-gradient(to bottom, red, yellow);;
     font-size: xx-large;
     text-decoration-color: #f12711;
     border-radius: 1px;
     border: 2px dotted green;
 }
 #ali {
-    background: linear-gradient(to right, #243b55, #141e30);
+    background-color: linear-gradient(to bottom, red, yellow);
     width: 900px;
     height: 30vh;
     display: flex;
