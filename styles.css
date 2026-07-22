@@ -77,9 +77,10 @@ p {
 #ali {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
-    width: 900px;
-    height: 30vh;
     display: flex;
+     width: 70%;
+    font-size: 16p;
+    text-align: justify;
 }
 .fin {
     display:grid;
@@ -87,6 +88,7 @@ p {
     gap:40px;
     width: 250%;
     margin:10px auto;
+    max-width: 1220px;
 }
 .fin p{
     width:90%; 
