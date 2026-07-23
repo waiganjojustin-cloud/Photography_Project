@@ -12,7 +12,7 @@ img {
 #flt {
     float: left;
     width: 200px;
-    margin-bottom: 0 25px 5px 0;
+    margin: 0 25px 5px 0;
 }
 p {
     border: 2px solid red;
@@ -53,8 +53,10 @@ p {
 }
 .grad9 {
     background: linear-gradient(45deg, #f12711, #f5af19);
-    width: 200px;
-    margin-bottom: 0;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 20px auto;
+    text-align: center;
 }
 .grad10 {
     background: linear-gradient(to right, #0575e6, #00f260, #0575e6);
@@ -78,17 +80,18 @@ p {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     display: flex;
-     width: 70%;
-    font-size: 16p;
-    text-align: justify;
+    width: 60%;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.6;
 }
 .fin {
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
-    gap:40px;
-    width: 250%;
-    margin:10px auto;
-    max-width: 1220px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
 }
 .fin p{
     width:90%; 
